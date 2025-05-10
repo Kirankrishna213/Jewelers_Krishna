@@ -1,1 +1,1 @@
-web: gunicorn krishna_jewellers.wsgi 
+web: gunicorn krishna_jewellers.wsgi
