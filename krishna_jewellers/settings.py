@@ -61,10 +61,10 @@ WSGI_APPLICATION = 'krishna_jewellers.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME', 'krishnajewellers'),
-        'USER': os.getenv('DB_USER', 'postgres'),
-        'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),
-        'HOST': os.getenv('DB_HOST', 'localhost'),
+        'NAME': os.getenv('DB_NAME', 'krishna_jewel'),
+        'USER': os.getenv('DB_USER', 'krishna_jewel_user'),
+        'PASSWORD': os.getenv('DB_PASSWORD', 'YFTBALa5NsHkvBqLuqHKF5UuTRZx3ekL'),
+        'HOST': os.getenv('DB_HOST', 'dpg-d0f5lp3e5dus738e2kdg-a'),
         'PORT': os.getenv('DB_PORT', '5432'),
     }
 }
